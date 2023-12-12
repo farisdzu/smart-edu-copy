@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: plus jakarta sans;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            padding-top: 50px;
+            background-color: #EEFCFF;
+        }
+
+        .nav-kurs {
+            width: 80%;
+            background-color: #ffffff;
+            height: 80px;
+            border-radius: 1000px;
+            box-shadow: 0px 0px 5px #00000023;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .btn-area {
+            /* background-color: beige; */
+            padding-left: 20px;
+            width: 15%;
+            height: 100%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .btn-back {
+            padding: 15px 30px;
+            border-radius: 1000px;
+            border: none;
+            font-size: 15px;
+            background-color: #2FD2BF;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .judul-area {
+            width: 85%;
+            /* background-color: bisque; */
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .judul {
+            font-size: 200%;
+            font-weight: 700;
+        }
+
+        .judul span {
+            color: #2FD2BF;
+            font-style: italic;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+            flex-direction: row;
+        }
+
+        .grid-item {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-kurs">
+            <div class="btn-area">
+                <button class="btn-back"><a href=""></a>Kembali</button>
+            </div>
+            <div class="judul-area">
+                <p class="judul">Jelajahi Kursus DI Smart<span>EDU</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="grid-content">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+
+</body>
+
+</html>
